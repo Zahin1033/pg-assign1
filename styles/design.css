@@ -68,14 +68,16 @@
     margin-right: 365.5px;
     padding: 12px 36px;
 }
+/* main styles */
+.main{
+    background-color: #f5f8ff;
+}
 
 /* Action styles */
 .action{
-    /* background-color: #f5f8ff; */
     display: flex;
     justify-content: space-around;
     padding-top: 116px;
-    background-color: #f5f8ff;
 }
 .action-title{
     font-size: 42px;
@@ -93,4 +95,40 @@
 .btn-action{
     padding: 12px 36px;
     margin-top: 23px;
+}
+/* Productive user styles */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1140px;
+    margin-top: 116px;
+    border-radius: 24px;
+    justify-content: center;
+    display: flex;
+    padding: 50px 142px;
+    margin-left: 250px;
+}
+.pro-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 45px;
+}
+.pro-header{
+    
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 80px;
+  color: #4E47FF;
+}
+.pro-columns{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.pro-sub-header{
+    color: rgba(0, 0, 0, 0.5);
+
 }
