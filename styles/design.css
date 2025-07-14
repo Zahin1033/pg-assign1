@@ -161,18 +161,41 @@
 
 .contact-columns {
     display: flex;
+    justify-content: center;
+    margin-top: 93px;
 }
 
 .contact-title {
+    display: flex;
     font-size: 97px;
     font-weight: bold;
+    margin-right: 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-submit {
     padding: 19px 201px;
     display: block;
+    width: 100%;
+    margin-top: 19px;
 }
 
-main input[type="text"] {
+main input[type="text"], main input[type="email"]{
     width: 497px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 30px ;
 }
+main textarea {
+    width: 497px;
+    height: 135px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
+/* footer styles */
+
